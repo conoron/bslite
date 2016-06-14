@@ -100,8 +100,8 @@ h3
   </header>
   <div class="right tab-menu menu">
     
-      <a class="item" data-tab="Lab-03b">
-        Lab-03b
+      <a class="item" data-tab="Learn">
+        Learn
       </a>
     
       <a class="item" data-tab="01">
@@ -124,18 +124,6 @@ h3
         05
       </a>
     
-      <a class="item" data-tab="06">
-        06
-      </a>
-    
-      <a class="item" data-tab="07">
-        07
-      </a>
-    
-      <a class="item" data-tab="08">
-        08
-      </a>
-    
       <a class="item" data-tab="Exercises">
         Exercises
       </a>
@@ -146,460 +134,178 @@ h3
 <br><br>
 
   
-  <div  class="ui tab segment lab" data-tab="Lab-03b">
+  <div  class="ui tab segment lab" data-tab="Learn">
     <h1>Objectives</h1>
-<p>This weeks lab will give you more practical experience od the box model and specifically how to build a simple multi-column layout using the techniques we have explored in class. You should complete this lab before starting to consider your project in detail.</p>
+<p>In this lab we move along with a look at different ways of using Bootstrap components in Moodle and how we might structure our sections with the module to introduce navigation and design concepts</p>
 
   </div>
  
   <div  class="ui tab segment lab" data-tab="01">
     <h1>Setup</h1>
-<p>In Sublime create a new Lab04 folder. This time we will not be using any content from the previous labs.</p>
-<p>In this project create two files:</p>
-<ul>
-<li><p>home.html</p>
-</li>
-<li><p>home.css</p>
-</li>
-</ul>
-<p>Title the home page &quot;Home Page&quot;</p>
-<pre><code class="lang-html">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
-    &lt;title&gt;Home Page&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;
-      Lorem ipsum dolor sit
-    &lt;/h1&gt;
-    &lt;p&gt;
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed feugiat nisi  
-      at sapien. Phasellus varius tincidunt ligula. Praesent nisi. Duis  
-      sollicitudin. Donec dignissim, est vel auctor blandit, ante est laoreet  
-      neque, non pellentesque mauris turpis eu purus.
-    &lt;/p&gt;  
-    &lt;p&gt;
-      Suspendisse mollis leo nec diam. Vestibulum pulvinar tellus sit amet nulla  
-      fringilla semper. Aenean aliquam, urna et accumsan sollicitudin, tellus  
-      pede lobortis velit, nec placerat dolor pede nec nibh. Donec fringilla. Duis  
-      adipiscing diam at enim. Vestibulum nibh.
-    &lt;/p&gt;  
-    &lt;p&gt;
-      Nulla facilisi. Aliquam dapibus leo eget leo. Etiam vitae turpis sit amet  
-      massa posuere cursus. Sed vitae justo quis tortor facilisis ultrices.  
-      Integer id erat. Donec at felis ut erat interdum vestibulum. Quisque et eros.  
-      Donec fringilla, est in condimentum venenatis, tortor velit vehicula sem, in  
-      elementum quam sapien eu lectus. In dolor urna, ullamcorper vel, tempor sit  
-      amet, semper ut, felis. Praesent nisi.
-    &lt;/p&gt;  
-    &lt;p&gt;
-      Fusce scelerisque viverra quam. Nam urna. Nullam urna libero, euismod at,  
-      euismod sit amet, porttitor ac, mauris.
-    &lt;/p&gt;  
-    &lt;p&gt;
-      Vestibulum interdum aliquet lacus. Vestibulum egestas. Fusce adipiscing  
-      quam sed metus.
-    &lt;/p&gt;  
-    &lt;p&gt;
-      Nullam dignissim aliquam dui. Proin laoreet, elit sed pulvinar  
-      sollicitudin, urna arcu fermentum felis, in rhoncus nunc neque vitae  
-      libero.
-    &lt;/p&gt;  
-    &lt;ul&gt;  
-      &lt;li&gt;Mauris&lt;/li&gt;  
-      &lt;li&gt;Cras&lt;/li&gt;  
-      &lt;li&gt;Proin&lt;/li&gt;  
-      &lt;li&gt;Integer&lt;/li&gt;  
-      &lt;li&gt;Curabitur&lt;/li&gt;  
-      &lt;li&gt;Integer&lt;/li&gt;  
-      &lt;li&gt;Suspendisse&lt;/li&gt;  
-      &lt;li&gt;Quisque&lt;/li&gt;  
-    &lt;/ul&gt;  
-    &lt;p&gt;
-      Proin quis orci eu erat molestie varius. Praesent condimentum  
-      orci in lectus. Ut ipsum. In hac habitasse platea dictumst.
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</code></pre>
-<p>Reloading in the browser, it should look like this:</p>
+<h2>Instructions for working in Walton Building PC Labs:</h2>
+<p>If you are working on the workstations in the IT Building, choose Sublime Text 2 from the programs menu.</p>
 <p><img src="./img/00.png" alt=""></p>
+<p>Proceed with the next step of the lab.</p>
+<h2>Instructions for working on your own laptop</h2>
+<p>Download and install Sublime Text 2 from</p>
+<ul>
+<li><a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a></li>
+</ul>
+<p>Select the appropriate download for your laptop (OS, Windows, Linux)</p>
+<p><img src="./img/01.png" alt=""></p>
 
   </div>
  
   <div  class="ui tab segment lab" data-tab="02">
-    <h1>Div</h1>
-<p>We are now going to divide our content into a series of sections:</p>
-<ul>
-<li><p>header</p>
-</li>
-<li><p>maincontent</p>
-</li>
-<li><p>navigation</p>
-</li>
-<li><p>footer</p>
-</li>
-</ul>
-<p>..using divs.</p>
-<p>First the &quot;header&quot;:</p>
-<pre><code class="lang-html">    &lt;div id=&quot;header&quot;&gt;  
-      &lt;h1&gt;
-        Lorem ipsum dolor sit
-      &lt;/h1&gt;  
-    &lt;/div&gt;</code></pre>
-<p>Be sure to preserve the indentation as shown</p>
-<p>Next &quot;maincontent&quot;</p>
-<pre><code class="lang-html">    &lt;div id=&quot;maincontent&quot;&gt;
-      &lt;p&gt;
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed feugiat nisi  
-        at sapien. Phasellus varius tincidunt ligula. Praesent nisi. Duis  
-        sollicitudin. Donec dignissim, est vel auctor blandit, ante est laoreet  
-        neque, non pellentesque mauris turpis eu purus.
-      &lt;/p&gt;  
-      &lt;p&gt;
-        Suspendisse mollis leo nec diam. Vestibulum pulvinar tellus sit amet nulla  
-        fringilla semper. Aenean aliquam, urna et accumsan sollicitudin, tellus  
-        pede lobortis velit, nec placerat dolor pede nec nibh. Donec fringilla. Duis  
-        adipiscing diam at enim. Vestibulum nibh.
-      &lt;/p&gt;  
-      &lt;p&gt;
-        Nulla facilisi. Aliquam dapibus leo eget leo. Etiam vitae turpis sit amet  
-        massa posuere cursus. Sed vitae justo quis tortor facilisis ultrices.  
-        Integer id erat. Donec at felis ut erat interdum vestibulum. Quisque et eros.  
-        Donec fringilla, est in condimentum venenatis, tortor velit vehicula sem, in  
-        elementum quam sapien eu lectus. In dolor urna, ullamcorper vel, tempor sit  
-        amet, semper ut, felis. Praesent nisi.
-      &lt;/p&gt;  
-      &lt;p&gt;
-        Fusce scelerisque viverra quam. Nam urna. Nullam urna libero, euismod at,  
-        euismod sit amet, porttitor ac, mauris.
-      &lt;/p&gt;  
-      &lt;p&gt;
-        Vestibulum interdum aliquet lacus. Vestibulum egestas. Fusce adipiscing  
-        quam sed metus.
-      &lt;/p&gt;  
-      &lt;p&gt;
-        Nullam dignissim aliquam dui. Proin laoreet, elit sed pulvinar  
-        sollicitudin, urna arcu fermentum felis, in rhoncus nunc neque vitae  
-        libero.
-      &lt;/p&gt;
-    &lt;/div&gt;</code></pre>
-<p>Then &quot;navigation&quot;:</p>
-<pre><code class="lang-html">    &lt;div id=&quot;navigation&quot;&gt;  
-      &lt;ul&gt;  
-        &lt;li&gt;Mauris&lt;/li&gt;  
-        &lt;li&gt;Cras&lt;/li&gt;  
-        &lt;li&gt;Proin&lt;/li&gt;  
-        &lt;li&gt;Integer&lt;/li&gt;  
-        &lt;li&gt;Curabitur&lt;/li&gt;  
-        &lt;li&gt;Integer&lt;/li&gt;  
-        &lt;li&gt;Suspendisse&lt;/li&gt;  
-        &lt;li&gt;Quisque&lt;/li&gt;  
-      &lt;/ul&gt;  
-    &lt;/div&gt;</code></pre>
-<p>and finally &quot;footer&quot;:</p>
-<pre><code class="lang-html">    &lt;div id=&quot;footer&quot;&gt;
-      &lt;p&gt;
-        Proin quis orci eu erat molestie varius. Praesent condimentum  
-        orci in lectus. Ut ipsum. In hac habitasse platea dictumst.
-      &lt;/p&gt;
-    &lt;/div&gt;</code></pre>
-<p>Again, be careful to preserve the indentation. Verify that the home pages appearance has not changed. Finally, experiment with the folding nature of the sublime editor.</p>
-<p>For instance, try collapsing everything in the page. This can be done by pressing all of the arrow signs in the left hand margin. </p>
-<p>You may be able to generate a view something like this:</p>
-<p><img src="./img/02.png" alt=""></p>
+    <h1>Tips and Hints</h1>
+<p>When creating web pages we will use Sublime as the editor tool. It is like notepad but has nicer features.</p>
+<p>On the left hand side of the editor you can see the folder you are working in and all the files in that folder, similar to what you see in windows explorer or Mac Finder. 
+For example I have created a folder with two files contained in that folder, each of those files is shown indented and below the folder name. For each file you will also see its extension. For example .html</p>
+<p><img src="./img/03.png" alt=""></p>
+<p>The main editing window in sublime is where you will write code for the webpages.</p>
+<p>Once you click on a file it will appear in the editor window, it will show blank if it is empty or you will see the code you have written.</p>
+<p><img src="./img/04.png" alt=""></p>
+<p><img src="./img/05.png" alt=""></p>
+<p><img src="./img/06.png" alt=""></p>
+<p>It is important to regularly save your work, this might seem obvious but everyone looses work at some point in the semester and you&#39;d be surprised how many say &quot;I just forgot to save it!&quot;</p>
+<p>In sublime if you go to close your files it will prompt you to see if you want to save your work, however better practice is to always save after first creating a new file so that you name it correctly and then as you edit your code you should continually save your work.</p>
 
   </div>
  
   <div  class="ui tab segment lab" data-tab="03">
-    <h1>Body style</h1>
-<p>We already have an empty style sheet in place. However, it is not yet linked to our home page.</p>
-<p>Insert the following into the <code>&lt;head</code>&gt; element of the home.html to tie in the stylesheet:</p>
-<pre><code class="lang-html">    &lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;home.css&quot; media=&quot;screen&quot; /&gt;</code></pre>
-<p>Now lets try the following simple rule:</p>
-<pre><code class="lang-css">body
-{
-  width: 80%;  
-  margin: 0 auto;
-}</code></pre>
-<p>Save, and refresh. The home page should now look like this:</p>
+    <h1>Introduction Project</h1>
+<p>You will create a simple web page for it Starbuzz Coffee shop. They have made a name for itself as the fastest growing coffee shop around. If you’ve seen one on your local corner, look across the street—you’ll see another one. In fact, they’ve grown so quickly, they haven’t even managed to put up a web page yet…and therein lies your big break: By chance, while buying your Starbuzz Chai Tea, you run into
+the Starbuzz CEO… who asks for your help...</p>
+<p><img src="./img/10.png" alt=""></p>
+<p>These are the steps you will carry out:</p>
+<p><img src="./img/11.png" alt=""></p>
+<p>To prepare we will create a folder structure to store our work.</p>
+<p>If you are working on a pc in the IT lab, create a new folder on either your G drive or on your usb drive, name the folder WebDevelopment, inside that folder create another folder called Lab00.</p>
+<p>First on the list of tasks is to create a html file in our favourite text editor.</p>
+<p>Open Sublime and choose Open Folder from the File menu. Navigate to the WebDevelopment folder that you just created and click OK.</p>
+<p>In sublime click on the WebDevelopment folder, you should see the La00 folder appear.</p>
 <p><img src="./img/02.png" alt=""></p>
-<p>Remember the shortcut rules for CSS. The rule we have introduced is in fact a shorthand for :</p>
-<pre><code class="lang-css">{
-  width: 80%;  
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-}</code></pre>
-<p>Rules can be &#39;commented out&#39; if you want them to be temporarily removed. Figure out the notation for commenting in CSS, and verify this by commenting out your existing rule, and replacing with this one.</p>
-<p>Additionally, discover the equivalent notations for html (quite different).</p>
-<p>This rule is stating that we want no top/bottom for the page, however auto for left and right is resizing the margins to be proportional to the container width (the browser window), and equal in size.</p>
-<p>The overall effect is a pleasing border on either size of the page, of equal size.</p>
+<p>You will be creating a new folder for each weekly lab you work on in this semseter.</p>
+<p>Chose New File from the File menu, a new blank page should appear in the sublime window. When you open a new file you must tell Sublime what you want to name it. Click Save on the File menu and name the file index.html, save it into the Lab00 folder. You should see the file name appear in the left panel in sublime.</p>
+<p><img src="./img/07.png" alt=""></p>
+<p>Second on the list of tasks we type in the menu that the CEO provided to us on the napkin.</p>
+<p>To do this we click on the index.html file we just created and the blank page appears in sublime. In that page we type the following:</p>
+<pre><code>
+Starbuzz Coffee Beverages
+
+House Blend, $1.49
+A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala.
+
+Mocha Cafe Latte, $2.35
+Espresso, steamed mild and chocolate syrup.
+
+Cappuccino, $1.89
+A mixture of espresso, steamed milk and foam.
+
+Chai Tea, $1.85
+A spicy drink made with black tea, spices, milk and honey.</code></pre>
+<p>Third on the list of tasks is to save the file. Click on the File menu in Sublime and choose Save.</p>
+<p>Your file in sublime should look like this:</p>
+<p><img src="./img/16.png" alt=""></p>
 
   </div>
  
   <div  class="ui tab segment lab" data-tab="04">
-    <h1>Maincontent</h1>
-<p>We will now attempt to &quot;float&quot; the &quot;maincontent&quot; section to the right, with the &quot;navigation&quot; section hopefully moving in to the left.</p>
-<p>Try the following rule:</p>
-<pre><code class="lang-css">#maincontent
-{  
-  float: right;  
-}</code></pre>
-<p>and inspect the results. There should be no change yet. This is because the maincontent section is wide enough to include the full space available. We can adjust this so that is consumes say 80% of the space:</p>
-<pre><code class="lang-css">#maincontent
-{  
-  width: 80%;
-  float: right;  
-}</code></pre>
-<p>We are now starting to see the beginnings of a multicolumn layout:</p>
-<p><img src="./img/03.png" alt=""></p>
-<p>To get our bearings a bit better, lets introduce a border around the maincontent:</p>
-<pre><code class="lang-css">#maincontent
-{  
-  width: 80%;
-  float: right;  
-  border: dashed thin;
-}</code></pre>
-<p>-</p>
-<p><img src="./img/04.png" alt=""></p>
-<p>As you can see, the &quot;navigation&quot; and &quot;footer&quot; sections have moved up to the left, slipping inside the maincontent. This is because these sections are current obeying the default layout rules. In effect, they will be automatically resizing the fit the available space liberated by the 20% space of the <code>&lt;body</code>&gt; that maincontent has liberated.</p>
+    <h1>Web Browser</h1>
+<p>For this module we will be using Google&#39;s Chrome as our chosen Web Browser, it should be on all pc&#39;s in the IT building and if you are using your laptop you can download it here</p>
+<ul>
+<li><a href="http://www.google.com/chrome/">http://www.google.com/chrome/</a></li>
+</ul>
+<p>Open your Chrome web browser, it should be on the desktop or in the programs menu.</p>
+<p>To open a file in Chrome you press Ctrl+o , this is the shortcut using the letter &#39;o&#39; for Open. 
+An Open dialog box appears, using this you navigate to your Web Development folder, go to the Lab00 folder and click on the index.html file. Click Open.</p>
+<p>Your web page in the Chrome browser should look like this:</p>
+<p><img src="./img/17.png" alt=""></p>
+<p>Success! you have got the page loaded in the browser, although the results are a little..uh..unsatisfying. But that&#39;s just because all you&#39;ve done so far is go through the mechanics of creating a page and viewing it in the browser. So far you have only typed the content of the web page.</p>
+<p>HTML gives you a way to tell the browser about the structure of your page. What&#39;s structure? It is a way of marking up your text so that the browser knows what&#39;s a heading, what text is a paragraph, what text is a subheading and so on. Once the browser knows a little about the structure, it can display your page in a more meaningful and readable manner.</p>
+<p>So let&#39;s add some structure:</p>
+<p><img src="./img/18.png" alt=""></p>
+<p>The tags shown in the image above are used to place structure to the content we typed. So we want to identify which content is a heading, which is a subheading and which is a paragraph.</p>
+<p>If we first identify the heading, it is clearly the first line in our content. Starbuzz Coffee Beverages.
+Next a subheading could be House Blend, or Mocha Cafe Latte and so on.
+Next a paragraph could be A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala.</p>
+<p><img src="./img/19.png" alt=""></p>
+<p>Using the tags we surround each piece of content with an opening tag \<h1\> and a closing tag \</h1\></p>
+<p><img src="./img/20.png" alt=""></p>
+<p>Save your work in Sublime, click on File and Save.</p>
+<p>Now lets open/refresh our web page in Chrome.</p>
+<p>If you closed Chrome since you viewed your web page then open it again, press Ctrl+o and choose the index.html file again.</p>
+<p>If you still have the index.html file open in Chrome then simply press the refresh button on Chrome or press F5 (Windows)</p>
+<p><img src="./img/21.png" alt=""></p>
+<p>It is nice to be able to see you html code in sublime and see the web browser window at the same time. You can do this by spliting your screen. In Windows while you have the sublime window open press the Windows button and the left hand arrow button on the keyboard. This will move the sublime window to the left hand side of your screen. Now go to the Chrome page and press the Windows button and the right hand arrow button on the keyboard. This will put the Chrome window to the right half of your screen. Something like this:</p>
+<p><img src="./img/22.png" alt=""></p>
 
   </div>
  
   <div  class="ui tab segment lab" data-tab="05">
-    <h1>Navigation</h1>
-<p>We can introduce a rule to definitively tie the navigation to 20% of the parent size. and float it left (also turning on a border so we can visualize it easier)</p>
-<pre><code class="lang-css">#navigation
-{  
-  width: 20%;
-  float: left;  
-  border: dashed thin;
-}</code></pre>
-<p>This produces some alarming results:</p>
-<p><img src="./img/05.png" alt=""></p>
-<p>The width refers to the content, not padding and margins, so our true width exceeds the available space, so our navigation has been push below where we intended.</p>
-<p>We can easily fix this with a little adjustment:</p>
-<pre><code class="lang-css">#navigation
-{  
-  width: 18%;
-  float: left;  
-  border: dashed thin;
-}</code></pre>
-<p><img src="./img/06.png" alt=""></p>
-<p>Experiment with other percentages to get a feel for the layout behaviour</p>
-
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="06">
-    <h1>Header, footer</h1>
-<p>We can now target the headder and footer, and move them into place.</p>
-<p>First the header:</p>
-<pre><code class="lang-css">#header
-{  
-  width: 100%;
-  border: dashed thin;
-}</code></pre>
-<p>This should not have any effect, as the header, being positioned first, is already in place.</p>
-<p>Now try the footer:</p>
-<pre><code class="lang-css">#footer
-{  
-  width: 100%;
-  border: dashed thin;
-}</code></pre>
-<p>Save and refresh:</p>
-<p><img src="./img/07.png" alt=""></p>
-<p>Still not quite right.</p>
-<p>We would like to push the footer &quot;clear&quot; of any existing floated elements, and then for it to occupy the denoted size in that zone. This is accomplished with the &quot;clear&quot; property:</p>
-<pre><code class="lang-css">#footer
-{  
-  width: 100%;
-  clear: both;
-  border: dashed thin;
-}</code></pre>
-<p>Setting clear to &quot;both&quot;, means clear (move below) and blocks floated left or right.</p>
-<p>Refresh produces a pleasing result:</p>
-<p><img src="./img/08.png" alt=""></p>
-
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="07">
-    <h1>Simplify</h1>
-<p>Our full CSS is now as follows:</p>
-<pre><code class="lang-css">body
-{
-  width: 80%;  
-  margin: 0 auto;
-}
-
-#maincontent
-{  
-  width: 80%;
-  float: right;  
-  border: dashed thin;
-}
-
-#navigation
-{  
-  width: 18%;
-  float: left;  
-  border: dashed thin;
-}
-
-#header
-{
-  width: 100%;
-  border: dashed thin;
-}
-
-#footer
-{  
-  width: 100%;
-  clear: both;
-  border: dashed thin;
-}</code></pre>
-<p>Note the repeated border property. We introduced this property so that we could get a clearer view of our sections. Presumable we would like to remove it prior to production. However, this will mean deleting/commenting it out from every rule.</p>
-<p>This single property appears in every rule. We can create a new &quot;wildcard&quot; rule as follows:</p>
-<pre><code class="lang-css">*
-{
-  border: dashed thin;
-}</code></pre>
-<p>Now, we can delete this from all of the other rules:</p>
-<pre><code class="lang-css">body
-{
-  width: 80%;  
-  margin: 0 auto;
-}
-
-#maincontent
-{  
-  width: 80%;
-  float: right;  
-}
-
-#navigation
-{  
-  width: 18%;
-  float: left;  
-}
-
-#header
-{
-  width: 100%;
-}
-
-#footer
-{  
-  width: 100%;
-  clear: both;
-}</code></pre>
-<p>And when we want to remove the border, we can just delete that rule.</p>
-
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="08">
-    <h1>Primary, secondary</h1>
-<p>We can also further subdivide sections within existing sections. The &quot;maincontent&quot; section currently contains 6 paragraphs:</p>
-<p><img src="./img/09.png" alt=""></p>
-<p>Using nesting, we can divide these into two sections:</p>
-<p><img src="./img/10.png" alt=""></p>
-<p>If we fold this carefully, we can see the following structure:</p>
-<p><img src="./img/11.png" alt=""></p>
-<p>As yet, this has no bearing on the display. However, two simple rules targeting these sections will layout these sections in two columns:</p>
-<pre><code class="lang-css">#primary
-{  
-  width: 68%;  
-  float: left;  
-}
-
-#secondary
-{  
-  width: 30%;  
-  float: right;
-}</code></pre>
-<p>It should render as follows:</p>
-<p><img src="./img/12.png" alt=""></p>
-<p>If we comment out our wildcard rule:</p>
-<pre><code class="lang-css">*
-{
-  //border: dashed thin;
-}</code></pre>
-<p>This is the final result:</p>
-<p><img src="./img/13.png" alt=""></p>
+    <h1>More HTML</h1>
+<p>You now have an HTML file with markup - does that make a web page? Almost. 
+You will be introduced to the following tags in the lectures
+<code>&lt;html</code>&gt; <code>&lt;head</code>&gt; <code>&lt;title</code>&gt;  and <code>&lt;body</code>&gt;</p>
+<p>For the moment we need to use these tags to make this a proper HTML page...</p>
+<p>The content we have included so far should all be contained within the open <code>&lt;body</code>&gt; tag and the close <code>&lt;/body</code>&gt; tag.</p>
+<p>We must add a little extra into the <code>&lt;head</code>&gt; and <code>&lt;title</code>&gt; tags</p>
+<p><img src="./img/23.png" alt=""></p>
+<p>Save your work in Sublime, click on File and Save.</p>
+<p>Your index.html code should look like this:</p>
+<p><img src="./img/24.png" alt=""></p>
+<p>Now refresh the Chrome browser to see the changes.</p>
+<p><img src="./img/25.png" alt=""></p>
+<p>You can see the title of the tab in Chrome now says Starbuzz Coffee</p>
+<p>Congratulations you have now completed your first web page. </p>
 
   </div>
  
   <div  class="ui tab segment lab" data-tab="Exercises">
-    <h1>Exercises</h1>
-<h3>Archive of Completed Lab:</h3>
+    <h1>Queries and Questions</h1>
+<p>There is a lot to take in and become familiar with while learning web development. You will always have questions, please do ask your tutor, there is never a stupid question. </p>
+<p>For additional support you can use the Internet although there are so many sites the ones we recommend are:</p>
 <ul>
-<li><a href="./archives/lab04.zip">lab04.zip</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">https://developer.mozilla.org/en-US/docs/Web/HTML/Reference</a></li>
 </ul>
-<h3>Navigation</h3>
-<p>Create a copy of home.html - and call it &quot;page1.html&quot;. Keeping the other sections intact, delete the content of the &quot;primary&quot; and &quot;secondary&quot; sections.</p>
-<p>Insert the following into &quot;primary&quot;:</p>
-<pre><code class="lang-html">       &lt;p&gt;
-          Phasellus non nibh ut lacus elementum pharetra. Vivamus sed orci ipsum.
-          Nulla sapien eros, euismod ac ornare sed, consectetur sed dui. Integer gravida
-          sem et turpis interdum in convallis eros placerat. Quisque auctor, velit sed
-          blandit pharetra, felis diam ultricies erat, vel aliquet neque risus non lacus.
-          Etiam non magna tortor, in rutrum augue. Donec nec enim ante, in tincidunt eros.
-          Aenean ultrices, ante non scelerisque eleifend, libero dolor rutrum justo,
-          vitae iaculis mi est id nisl. Nunc velit odio, luctus in imperdiet eget,
-          pulvinar ac quam. Nullam ipsum arcu, euismod vel congue quis, ullamcorper
-          sit amet massa. Vivamus et mauris ut ante sagittis sagittis quis eu velit.  
-        &lt;/p&gt;</code></pre>
+<p>The book we recommend is:</p>
+<p>Head First HTML and CSS, 2nd Edition by Elisabeth Freeman &amp; Eric Freeman
+published by O&#39;Reilly Media, August 2012.</p>
+<p>Print ISBN:978-0-596-15990-0 | ISBN 10:0-596-15990-0
+Ebook ISBN:978-1-4493-2448-3 | ISBN 10:1-4493-2448-7</p>
+<p><img src="./img/26.png" alt=""></p>
+<p>Available to buy on Amazon.co.uk for £24.15</p>
+<p>The book is an excellent support for this module, each week the lectures and labs utilise the chapters in the book. We strongly recommend you buying this book.</p>
+<p>Some typical questions that you might have after completing this lab are as follows:</p>
+<p><img src="./img/12.png" alt=""></p>
+<p><img src="./img/13.png" alt=""></p>
+<p><img src="./img/14.png" alt=""></p>
+<p>If you have any queries please do ask your tutor.</p>
+<h1>Exercise 1:</h1>
+<p>Explore this reference site here:</p>
 <ul>
-<li>and into secondary, the following:</li>
+<li><a href="https://developer.mozilla.org/en-US/Web/HTML">https://developer.mozilla.org/en-US/Web/HTML</a></li>
 </ul>
-<pre><code class="lang-html">        &lt;p&gt;
-          In faucibus turpis lacus, eget congue magna. Aenean vitae lacus sed mi pretium
-          porttitor suscipit sit amet ipsum. Suspendisse potenti. Nunc pharetra consectetur
-          est eget tempus. Aenean ac iaculis dui. Morbi volutpat rutrum urna vitae suscipit.
-          Vestibulum quam libero, lacinia id varius at, pharetra vitae metus. Proin sit amet
-          euismod dolor. Donec varius tempus libero, ut interdum libero accumsan nec. Duis
-          id lectus eu sapien dapibus rutrum sed id tellus. Praesent purus purus, adipiscing
-          non vehicula in, vehicula eget ligula. Suspendisse massa nibh, condimentum ut ornare
-          at, vulputate eu augue. Donec cursus ullamcorper facilisis.
-          In iaculis convallis elementum.
-        &lt;/p&gt;</code></pre>
-<p>Our navigation section is currently just a list (without links):</p>
-<pre><code class="lang-html">   &lt;div id=&quot;navigation&quot;&gt;  
-    &lt;ol&gt;  
-        &lt;li&gt;Mauris&lt;/li&gt;  
-        &lt;li&gt;Cras &lt;/li&gt;  
-        &lt;li&gt;Proin&lt;/li&gt;  
-        &lt;li&gt;Integer&lt;/li&gt;  
-        &lt;li&gt;Curabitur&lt;/li&gt;  
-        &lt;li&gt;Integer&lt;/li&gt;  
-        &lt;li&gt;Suspendisse&lt;/li&gt;  
-        &lt;li&gt;Quisque&lt;/li&gt;  
-      &lt;/ol&gt;  
-    &lt;/div&gt;</code></pre>
-<p>This section is duplicated in both sections. Introduce hyper links into each, to provide rudimentary navigation:</p>
-<pre><code class="lang-html">   &lt;div id=&quot;navigation&quot;&gt;  
-    &lt;ol&gt;  
-        &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt; Mauris &lt;/a&gt;&lt;/li&gt;  
-        &lt;li&gt;&lt;a href=&quot;page1.html&quot;&gt; Cras &lt;/a&gt;&lt;/li&gt;  
-        &lt;li&gt;Proin&lt;/li&gt;  
-        &lt;li&gt;Integer&lt;/li&gt;  
-        &lt;li&gt;Curabitur&lt;/li&gt;  
-        &lt;li&gt;Integer&lt;/li&gt;  
-        &lt;li&gt;Suspendisse&lt;/li&gt;  
-        &lt;li&gt;Quisque&lt;/li&gt;  
-      &lt;/ol&gt;  
-    &lt;/div&gt;</code></pre>
-<p>Save and reload - and you should see basic navigation between the two pages.</p>
-<h3>Multiple Pages</h3>
-<p>Create 2 more pages, with different primary/secondary content, and stitch them into the navigation across all page. You can generate some more content here:</p>
+<p>In particular, locate the <code>&lt;tags</code>&gt; you have used in this lab in the Element Reference section:</p>
 <ul>
-<li><a href="http://www.lipsum.com">http://www.lipsum.com</a></li>
+<li>&lt;<a href="https://developer.mozilla.org/en-US/Web/HTML/Element">https://developer.mozilla.org/en-US/Web/HTML/Element</a></li>
 </ul>
-<p>You might be interested in the background to this text here:</p>
+<p>For examples this is the <code>&lt;p</code>&gt; element:</p>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Lorem_ipsum">http://en.wikipedia.org/wiki/Lorem_ipsum</a></li>
+<li><a href="https://developer.mozilla.org/en-US/Web/HTML/Element/p">https://developer.mozilla.org/en-US/Web/HTML/Element/p</a></li>
 </ul>
+<p>The text is very technical - but some of it will start to make sense over the next few weeks.</p>
+<h1>Exercise 2:</h1>
+<p>At the end of this page:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/Web/HTML/Element/p">https://developer.mozilla.org/en-US/Web/HTML/Element/p</a></li>
+</ul>
+<p>is a See Also section, which suggests two elements:</p>
+<ul>
+<li><code>&lt;hr&gt;</code></li>
+<li><code>&lt;br&gt;</code></li>
+</ul>
+<p>Look up these in the reference, and try them out on the page you have designed.</p>
 
   </div>
  
