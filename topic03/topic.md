@@ -1,3 +1,3 @@
-#Box Model
+#Adobe Connect
 
-At the heart of the layout engine in web browsers is a concept called the 'box model'. This defines a general layout structure for all HTML elements, providing a language for specifying important dimensions and relationships to other elements.
+Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  
