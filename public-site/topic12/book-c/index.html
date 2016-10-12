@@ -7,14 +7,14 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
 
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
       <style>
@@ -36,10 +36,6 @@ figcaption
   align-items: center;
 }
 
-.credits
-{
-  min-height:20px;
-}
 
 
     </style>
@@ -47,12 +43,6 @@ figcaption
   </head>
 
   <body>
-
-    
-
-
-
-  <div class="ui container">
     
 
 <style>
@@ -93,68 +83,220 @@ h3
 
 <div class="ui fixed top pointing inverted menu labmenu">
   <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     <a href="../index.html">
-      <i class="sitemap icon"></i>
       Assignment Studio + Deployment
     </a>
   </header>
   <div class="right tab-menu menu">
     
-      <a class="item" data-tab="Lab-12">
-        Lab-12
-      </a>
+    <a class="item" data-tab="Lab-12">
+      Lab-12
+    </a>
     
-      <a class="item" data-tab="01">
-        01
-      </a>
+    <a class="item" data-tab="01">
+      01
+    </a>
     
-      <a class="item" data-tab="02">
-        02
-      </a>
+    <a class="item" data-tab="02">
+      02
+    </a>
     
-      <a class="item" data-tab="03">
-        03
-      </a>
+    <a class="item" data-tab="03">
+      03
+    </a>
     
-      <a class="item" data-tab="04">
-        04
-      </a>
+    <a class="item" data-tab="04">
+      04
+    </a>
     
-      <a class="item" data-tab="05">
-        05
-      </a>
+    <a class="item" data-tab="05">
+      05
+    </a>
     
-      <a class="item" data-tab="06">
-        06
-      </a>
+    <a class="item" data-tab="06">
+      06
+    </a>
     
-      <a class="item" data-tab="Exercises">
-        Exercises
-      </a>
+    <a class="item" data-tab="Exercises">
+      Exercises
+    </a>
     
-    </div>
+    <a class="item" href="../../index.html">
+      <i class="home icon"></i>
+    </a>
+  </div>
 </div>
 
-<br><br>
-
-  
-  <div  class="ui tab segment lab" data-tab="Lab-12">
-    <h1>Objectives</h1>
+<div class="ui segment pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    
+      
+        <a class="item" href="../../topic01/book-a/index.html">
+          Basics
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic01/book-b/index.html">
+          Learn
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic01/book-c/index.html">
+          Engage
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic02/book-a/index.html">
+          Touch
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic02/book-b/index.html">
+          Learn
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic02/book-c/index.html">
+          Engage
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic03/book-a/index.html">
+          Touch
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic03/book-b/index.html">
+          Learn
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic03/book-c/index.html">
+          Engage
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic04/book-a/index.html">
+          docs
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic04/book-b/index.html">
+          Sheets
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic04/book-c/index.html">
+          Forms
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic05/book-a/index.html">
+          Lab-05a
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic05/book-b/index.html">
+          Lab-05b
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic05/book-c/index.html">
+          Lab-05c
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic06/book-a/index.html">
+          Lab-06a
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic06/book-b/index.html">
+          Lab-06b
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic06/book-c/index.html">
+          Lab-06c
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic07/book/index.html">
+          Lab-07
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic08/book/index.html">
+          Lab-08
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic09/book-a/index.html">
+          Lab-09
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic10/book/index.html">
+          Lab-10
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic11/book/index.html">
+          Lab-11
+        </a>
+      
+    
+      
+        <a class="active item" href="../../topic12/book-c/index.html">
+          Lab-12
+        </a>
+      
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <br>
+      
+      <div  class="ui tab segment lab" data-tab="Lab-12">
+        <h1>Objectives</h1>
 <p>Deploy the Spacebook app to Heroku. This will require a heroku account + a locally installed git tool set.</p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="01">
-    <h1>Git Bash</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="01">
+        <h1>Git Bash</h1>
 <p>Download and install <a href="http://git-scm.com/downloads">Git for Windows</a>.</p>
 <p>This will be used in this lab. We shall refer to as <em>Git Bash</em>.</p>
 <p><img src="img/heroku_022.png" alt="Figure 1: Installation Wizard Git Bash"></p>
 <p>All the following commands should be run within the Git Bash terminal, not the standard windows terminal (Command Prompt).</p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="02">
-    <h1>SSH Keys</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="02">
+        <h1>SSH Keys</h1>
 <p>This section applies only if you do not have SSH keys on your computer. We shall explain shortly how you can check whether or not keys are present.</p>
 <p>Official Heroku documentation on managing SSH keys is available <a href="https://devcenter.heroku.com/articles/keys#adding-keys-to-heroku">here</a></p>
 <p>Your computer will communicate with Heroku using <a href="http://en.wikipedia.org/wiki/Secure_Shell">Secure Shell</a> (SSH).</p>
@@ -175,10 +317,10 @@ h3
 </ul>
 <p>Confirm that keys have been successfully generated by checking the contents of the <em>.ssh</em> folder which should be similar that shown in Figure 3 above.</p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="03">
-    <h1>Local Repository</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="03">
+        <h1>Local Repository</h1>
 <p>You recall that we may be using a &#39;bootstrap.java&#39; class to load the models. This may cause some difficulty with our deployment, so we will remove it from the project for the moment. You can do this from within Eclipse by commenting out the database initialization code:</p>
 <pre><code>import java.util.List;
 
@@ -250,10 +392,10 @@ git commit -m &quot;first commit&quot;</code></pre>
 <p><img src="img/heroku_016.png" alt=""></p>
 <p>We have now established a local git repository containing only those files required to run the application. Our next step is to push this repository to the heroku service. </p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="04">
-    <h1>Heroku repository</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="04">
+        <h1>Heroku repository</h1>
 <p>Create an account on <a href="http://www.heroku.com">Heroku</a>. Note carefully your login and password.</p>
 <p>Download and install <a href="https://toolbelt.heroku.com">Heroku Toolbelt for Windows</a>. Close and reopen Git Bash following installation of the Toolbelt. </p>
 <p>Once installed, verify that the installation ok by typing </p>
@@ -294,10 +436,10 @@ The response should be somewhat similar to that shown in Figure 4.</p>
 <p>A typical response is shown in Figure 5:</p>
 <p><img src="img/heroku_007.png" alt="Figure 5: Changing name of Heroku app from command line"></p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="05">
-    <h1>Heroku Database</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="05">
+        <h1>Heroku Database</h1>
 <p>You created a Heroku app in an earlier step (using the command <em>heroku create</em>) </p>
 <ul>
 <li>A database was made available as part of the app creation process.</li>
@@ -339,10 +481,10 @@ git push heroku master</code></pre>
 <pre><code>heroku open</code></pre>
 <p>This should open your web browser and display the application directly on the heroku platform.</p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="06">
-    <h1>Further Modifications</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="06">
+        <h1>Further Modifications</h1>
 <p>Every time you wish to run the application locally for test purposes, you will need to comment out the new database entry:</p>
 <pre><code>#================heroku databse config config=========================
 #db=${DATABASE_URL}
@@ -380,10 +522,10 @@ git commit -m &quot;SOME DESCRIPTIVE COMMENT&quot;
 git push heroku master</code></pre>
 <p>The comment above would be a short statement about the changes you have introduced. You will learn more about git commits in future labs.</p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="Exercises">
-    <h1>Exercises</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="Exercises">
+        <h1>Exercises</h1>
 <h2>Exercise 1: Experiment with Deploy</h2>
 <p>Deploy the app once and use it. Make a superficial but noticeable change to the UI, and deploy it again. Make sure the changes you made are present in the deployed app.</p>
 <h2>Exercise 2 Experiment with Logs</h2>
@@ -400,34 +542,25 @@ git push heroku master</code></pre>
 <h2>Exercise 4: More deployments</h2>
 <p>Can you deploy two versions of your app to Heroku - both running concurrently?</p>
 
+      </div>
+     
+    </div>
   </div>
- 
-
-
-<script>
-$('.ui.menu .item')
-  .tab({
-    history: true,
-    historyType: 'hash'
-  })
-;
-</script>
-
-   </div>
-
-   
-  <br><br>
-  <div class="ui bottom fixed borderless menu">
-    <div class="ui small item">
-    <p id="footertext">
-    Prepared by  Conor O'Neill (cponeill@wit.ie). Except where otherwise noted, this content is licensed under a
-     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
-     </a>
-     </p>
+</div>
+  <div class="ui bottom fixed borderless right menu">
+    <div class="ui right tiny menu">
+      <div class="ui mini message segment">
+        Conor O'Neill (cponeill@wit.ie).
+        <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank">Creative Commons License
+        </a>
+      </div>
     </div>
   </div>
 
+    <footer>
+
+    </footer>
     <script>
       
 $(document).ready(function()
@@ -448,10 +581,21 @@ $(document).ready(function()
   });
 
 
-})
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
 
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
 
     </script>
-
   </body>
+
  </html>

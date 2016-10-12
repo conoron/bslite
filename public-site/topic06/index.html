@@ -7,14 +7,14 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
 
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
       <style>
@@ -36,10 +36,6 @@ figcaption
   align-items: center;
 }
 
-.credits
-{
-  min-height:20px;
-}
 
 
     </style>
@@ -47,198 +43,244 @@ figcaption
   </head>
 
   <body>
-
     
 
 
 
-  <div class="ui container">
-    
+
+
 
 
   <header class="ui middle aligned center aligned stackable grid segment">
-    <div class="eight wide  column">
-      <h2> Starting to Play </h2>
-      <!--<h3> () </h3>-->
+
+    <a class="ui blue left corner label">
+  <div id="showTOC" class="popup" data-content="Reveal TOC">
+    <i id="toc" class="sitemap big  icon"></i>
+  </div>
+</a>
+
+    <div class="seven wide center aligned column">
+      <h2> Starting to Play </h2>
+      <p> Single Topic </p>
     </div>
-    <div class="one wide column sitemap">
-      <div class="popup" data-content="Top Level Topic View">
-        <a href="../index.html"> <i class="big sitemap icon"></i></a>
-        topics
+
+    
+<div class="two wide column sitemap">
+  <div class="popup" data-content="Top Level Topic View">
+    <a href="../index.html"> <i class="huge home icon"></i> Topics </a>
+  </div>
+</div>
+
+    
+<div class="four wide column">
+  <div class="ui center aligned mini message segment">
+    Conor O'Neill (cponeill@wit.ie).
+    <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+        target="_blank">Creative Commons License
+    </a>
+  </div>
+</div>
+
+    
+<div class="ui two wide right aligned column">
+  <div class="ui left aligned middle aligned very basic grid">
+    <div class="row">
+      <div class="popup" data-content="All Slides in Course">
+        <a href="../talkwall.html"> <i class="large film icon"></i> All Slides </a>
       </div>
     </div>
-    <div class="one wide column">
-      <div class="popup" data-content="All Presentations">
-        <a href="../talkwall.html"> <i class="big film icon"></i></a>
-        slides
+    <div class="row">
+      <div class="popup" data-content="All Labs in Course">
+        <a href="../labwall.html"> <i class="large lab icon"></i> All Labs </a>
       </div>
     </div>
-    <div class="one wide column">
-      <div class="popup" data-content="All Labs">
-        <a href="../labwall.html"> <i class="big lab icon"></i></a>
-        labs
-      </div>
-    </div>
-    <div class="five wide column">
-      <img class="ui centered medium image" src="http://www.wit.ie/assets/images/wit_crest.png">
-    </div>
+  </div>
+</div>
+
+
   </header>
 
-<script>
-  $('.popup')
-  .popup()
-;
-</script>
 
+<div class="ui segment pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    <div class="header">
+      <a class="item" href="#">
+        Starting to Play
+      </a>
+    </div>
+    <div class="menu">
+      
+        <a class="item" href="talk-1-introducing-dynamic-web/a-introduction-to-dynamic-web.pdf">
+          Dynamic Web Applications
+        </a>
+      
+        <a class="item" href="talk-1-starting-to-play/b-starting-to-play.pdf">
+          Starting to Play
+        </a>
+      
+        <a class="item" href="talk-2-spacebook-skeleton/c-spacebook-skeleton.pdf">
+          Spacebook Skeleton
+        </a>
+      
+        <a class="item" href="talk-3-play-project-structure/a-play-project-structure.pdf">
+          Play Project Structure
+        </a>
+      
+        <a class="item" href="book-a/index.html">
+          Lab-06a
+        </a>
+      
+        <a class="item" href="book-b/index.html">
+          Lab-06b
+        </a>
+      
+        <a class="item" href="book-c/index.html">
+          Lab-06c
+        </a>
+      
+    </div>
+  </div>
 
-<div class="ui four doubling stackable cards">
-
-  
-  
-  <div class="ui card">
+  <div class="pusher">
+    <div class="ui basic segment">
+      <div class="ui four doubling stackable cards">
+        
+        
+  <a class="ui raised link card" href="talk-1-introducing-dynamic-web/a-introduction-to-dynamic-web.pdf">
     <div class="content">
         <div class="right floated meta"> <i class="film large icon"></i></div>
-        <div class="header"> Dynamic Web Applications </div>
+        <div class="header"> Dynamic Web Applications </div>
     </div>
-    <a href="talk-1-introducing-dynamic-web/a-introduction-to-dynamic-web.pdf">
+    <div class="image">
       <img class="ui bordered rounded image" src="talk-1-introducing-dynamic-web/a-introduction-to-dynamic-web.gif">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>The applications to date have been static - essentially a collecting of individual web pages. For more sophisticated web site we need to move to creating web applications. This will require a shift to considering the web site as an aggregating of fragments of web pages, composed and assembled by a program we also write.</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
-  
-  <div class="ui card">
+        
+        
+  <a class="ui raised link card" href="talk-1-starting-to-play/b-starting-to-play.pdf">
     <div class="content">
         <div class="right floated meta"> <i class="film large icon"></i></div>
-        <div class="header"> Starting to Play </div>
+        <div class="header"> Starting to Play </div>
     </div>
-    <a href="talk-1-starting-to-play/b-starting-to-play.pdf">
+    <div class="image">
       <img class="ui bordered rounded image" src="talk-1-starting-to-play/b-starting-to-play.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>To build a web application we need a web framework. This will define the superstructure of our application and provide essential features to enable us to compose a complicated and efficient web application</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
-  
-  <div class="ui card">
+        
+        
+  <a class="ui raised link card" href="talk-2-spacebook-skeleton/c-spacebook-skeleton.pdf">
     <div class="content">
         <div class="right floated meta"> <i class="film large icon"></i></div>
-        <div class="header"> Spacebook Skeleton </div>
+        <div class="header"> Spacebook Skeleton </div>
     </div>
-    <a href="talk-2-spacebook-skeleton/c-spacebook-skeleton.pdf">
+    <div class="image">
       <img class="ui bordered rounded image" src="talk-2-spacebook-skeleton/c-spacebook-skeleton.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>This is the starter web application you will build in this weeks lab. It will always have a very specific structure coupled with a tightly controller life cycle for handing requests.</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
-  
-  <div class="ui card">
+        
+        
+  <a class="ui raised link card" href="talk-3-play-project-structure/a-play-project-structure.pdf">
     <div class="content">
         <div class="right floated meta"> <i class="film large icon"></i></div>
-        <div class="header"> Play Project Structure </div>
+        <div class="header"> Play Project Structure </div>
     </div>
-    <a href="talk-3-play-project-structure/a-play-project-structure.pdf">
+    <div class="image">
       <img class="ui bordered rounded image" src="talk-3-play-project-structure/a-play-project-structure.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>Play applications follow a specific layout and structure. Understanding this is the key to making sense of play applications, allowing the developer to &#39;grow&#39; applications in an orderly manner.</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
-  
-  <div class="ui card">
+        
+        
+  <a class="ui raised link card" href="book-a/index.html">
     <div class="content">
         <div class="right floated meta"> <i class="lab large icon"></i></div>
         <div class="header"> Lab-06a </div>
     </div>
-    <a href="book-a/index.html">
+    <div class="image">
       <img class="ui bordered rounded image" src="book-a/img/main.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>In this lab we reconfigure a web site to use the Semantic UI CSS framework. This will involve downloading and installing the latest version into our project, and then reconfiguring the elements, classes and IDs from the earlier project to use the Semantic UI design vocabulary.</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
-  
-  <div class="ui card">
+        
+        
+  <a class="ui raised link card" href="book-b/index.html">
     <div class="content">
         <div class="right floated meta"> <i class="lab large icon"></i></div>
         <div class="header"> Lab-06b </div>
     </div>
-    <a href="book-b/index.html">
+    <div class="image">
       <img class="ui bordered rounded image" src="book-b/img/main.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>Review the spacebook-semantic project from an earlier lab. Become familiar with the Command Prompt. Install 2 new programming environments: a Web Framework called Play and an Integrated Development Environment called Eclipse.</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
-  
-  <div class="ui card">
+        
+        
+  <a class="ui raised link card" href="book-c/index.html">
     <div class="content">
         <div class="right floated meta"> <i class="lab large icon"></i></div>
         <div class="header"> Lab-06c </div>
     </div>
-    <a href="book-c/index.html">
+    <div class="image">
       <img class="ui bordered rounded image" src="book-c/img/main.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>Move the Spacebook application from the static site into the structure provide by the Play framework. This will require installation of the framework, creation of a starter project and incorporation of the work we have already completed in the last lab.</p>
 
       </div>
     </div>
-  </div>
+  </a>
 
-  
+        
 
+      </div>
+    </div>
+   </div>
 </div>
 
 
-   </div>
+    <footer>
 
-   
-  <br><br>
-  <div class="ui bottom fixed borderless menu">
-    <div class="ui small item">
-    <p id="footertext">
-    Prepared by  Conor O'Neill (cponeill@wit.ie). Except where otherwise noted, this content is licensed under a
-     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
-     </a>
-     </p>
-    </div>
-  </div>
-
+    </footer>
     <script>
       
 $(document).ready(function()
@@ -259,10 +301,21 @@ $(document).ready(function()
   });
 
 
-})
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
 
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
 
     </script>
-
   </body>
+
  </html>
