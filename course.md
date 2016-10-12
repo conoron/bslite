@@ -1,6 +1,6 @@
 #Moodle Labs
 
->Welcome to Moodle Labs. These workshopa are part of the professional development programme within WIT and also the ongoing staff support within the technology enhanced learning environment here in the WIT community. 
+Welcome to Moodle Labs. These workshops are part of the professional development programme within WIT and also the ongoing staff support within the technology enhanced learning environment here in the WIT community. 
 
 ####Tuition Team
 
